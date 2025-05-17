@@ -5,11 +5,7 @@ matplotlib
 tensorflow
 soundfile
 sounddevice
-tempfile
-os
 noisereduce
-glob 
-scipy.signal
-torch 
+scipy
 torch
-pandas 
+pandas
