@@ -6,7 +6,6 @@ import librosa.display
 import matplotlib.pyplot as plt
 import tensorflow 
 import soundfile as sf
-import sounddevice as sd
 import tempfile
 import os
 import signal
