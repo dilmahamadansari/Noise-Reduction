@@ -9,7 +9,7 @@ import soundfile as sf
 import tempfile
 import os
 import signal
-import noisereduce
+import noisereduce as nr
 import glob 
 import scipy.signal 
 import torch 
