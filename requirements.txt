@@ -4,7 +4,6 @@ librosa
 matplotlib
 tensorflow
 soundfile
-sounddevice
 noisereduce
 scipy
 torch
