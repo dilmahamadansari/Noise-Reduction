@@ -7,11 +7,9 @@ soundfile
 sounddevice
 tempfile
 os
-noisereduce as nr
+noisereduce
 glob 
-scipy.signal as sig
+scipy.signal
 torch 
-torch import nn 
-pandas as pd 
-from sklearn.metrics import confusion_matrix
-from sklearn.model_selection import train_test_split
+torch
+pandas 
