@@ -8,7 +8,7 @@ import tensorflow
 import soundfile
 import tempfile
 import os
-import signal a
+import signal
 import noisereduce
 import glob 
 import scipy.signal 
