@@ -1,6 +1,7 @@
 # feature extractoring and preprocessing data
 import streamlit as st
 import numpy as np
+import io
 import librosa
 import librosa.display
 import matplotlib.pyplot as plt
@@ -20,7 +21,26 @@ from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import train_test_split
 
 
+def main():
+    st.title("Noise Reduction App")
 
+    uploaded_file = st.file_uploader("Choose an audio file", type=["wav", "mp3"])
+
+    if uploaded_file is not None:
+        audio_bytes = uploaded_file.read()
+        st.audio(audio_bytes)
+
+        audio_buffer = io.BytesIO(audio_bytes)
+        data, samplerate = sf.read(audio_buffer)
+
+        st.write(f"Sample rate: {samplerate} Hz")
+        st.write(f"Audio data shape: {data.shape}")
+
+        fig, ax = plt.subplots()
+        ax.plot(np.linspace(0, len(data)/samplerate, len(data)), data)
+        ax.set_xlabel('Time [s]')
+        ax.set_ylabel('Amplitude')
+        st.pyplot(fig)
 # Load dataset files
 ipynb_background_noise_detection_module_path = "C:\\Users\\Fatima Ansari\\Desktop\\oice\\voice\\background-noise-detection.ipynb"
 def load_background_noise_detection():
