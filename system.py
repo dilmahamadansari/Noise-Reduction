@@ -1,11 +1,11 @@
 # feature extractoring and preprocessing data
-import streamlit 
-import numpy 
+import streamlit as st
+import numpy as np
 import librosa
 import librosa.display
 import matplotlib.pyplot 
 import tensorflow 
-import soundfile
+import soundfile as sf
 import tempfile
 import os
 import signal
