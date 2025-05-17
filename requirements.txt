@@ -3,7 +3,7 @@ numpy
 librosa
 matplotlib
 tensorflow
-# import sounddevice as sd
+sounddevice
 soundfile
 noisereduce
 scipy
