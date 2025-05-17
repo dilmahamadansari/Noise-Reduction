@@ -337,7 +337,7 @@ if st.session_state.audio_data is not None and st.session_state.sample_rate is n
             # Provide download button
             with open(output_path, "rb") as file:
                 st.download_button(
-                    label="Download Clear with Enhanced Audio",
+                    label="Download Clear audio",
                     data=file,
                     file_name="enhanced_audio.wav",
                     mime="audio/wav"
