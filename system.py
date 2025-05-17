@@ -8,10 +8,10 @@ import tensorflow
 import soundfile as sf
 import tempfile
 import os
-import signal
+import signal as sig
 import noisereduce as nr
 import glob 
-import scipy.signal 
+import scipy.signal as sig
 import torch 
 from torch import nn 
 import pandas  
