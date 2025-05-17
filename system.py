@@ -4,7 +4,7 @@ import numpy as np
 import librosa
 import librosa.display
 import matplotlib.pyplot as plt
-import tensorflow 
+import tensorflow as tf
 import soundfile as sf
 import tempfile
 import os
