@@ -1,20 +1,20 @@
 # feature extractoring and preprocessing data
-import streamlit as st
-import numpy as np
+import streamlit 
+import numpy 
 import librosa
 import librosa.display
-import matplotlib.pyplot as plt
-import tensorflow as tf
-import soundfile as sf
+import matplotlib.pyplot 
+import tensorflow 
+import soundfile
 import tempfile
 import os
-import signal as sig
-import noisereduce as nr
+import signal a
+import noisereduce
 import glob 
-import scipy.signal as sig
+import scipy.signal 
 import torch 
 from torch import nn 
-import pandas as pd 
+import pandas  
 from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import train_test_split
 
