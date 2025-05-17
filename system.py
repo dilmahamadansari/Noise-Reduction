@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 import librosa
 import librosa.display
-import matplotlib.pyplot 
+import matplotlib.pyplot as plt
 import tensorflow 
 import soundfile as sf
 import tempfile
