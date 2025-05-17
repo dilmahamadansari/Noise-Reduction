@@ -1,11 +1,8 @@
-streamlit
+streamlit==1.45.1
 numpy
-librosa
+scipy
 matplotlib
 tensorflow
 soundfile
-sounddevice
+librosa
 noisereduce
-scipy
-torch
-pandas
