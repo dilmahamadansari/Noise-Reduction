@@ -5,4 +5,14 @@ matplotlib
 tensorflow
 soundfile
 sounddevice
-Pillow
+tempfile
+os
+signal as sig
+noisereduce as nr
+glob 
+scipy.signal as sig
+torch 
+torch import nn 
+pandas as pd 
+from sklearn.metrics import confusion_matrix
+from sklearn.model_selection import train_test_split
