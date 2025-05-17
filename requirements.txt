@@ -7,7 +7,6 @@ soundfile
 sounddevice
 tempfile
 os
-signal as sig
 noisereduce as nr
 glob 
 scipy.signal as sig
